@@ -1,41 +1,41 @@
-# Fraud Detection
+# # Fraud Detection Analysis & Insights
 
 ## 📊 Key Findings from Each Fraud Pattern
 
-### P1. Velocity Fraud
+### 1. Velocity Fraud
 * **Detected 50 users** making 30–60 transactions in a single day, significantly exceeding normal customer behavior.
 
-### P2. Round-Amount Clustering
+### 2. Round-Amount Clustering
 * **Identified 25 users** with 18–30 round-value transactions, indicating potential money laundering or structured fund movement.
 
-### P3. Card Testing
+### 3. Card Testing
 * **Found 20 users** performing 31–60 transactions below ₹10 in a single day, matching common stolen-card testing behavior.
 
-### P4. Failed-Then-Succeeded (Simplified)
+### 4. Failed-Then-Succeeded (Simplified)
 * **Detected users** with 20+ failed transactions, suggesting repeated attempts to validate stolen payment credentials.
 
-### P5. Odd-Hour Concentration
+### 5. Odd-Hour Concentration
 * **Identified 20 users** with over 80% of their transactions occurring between 2 AM and 5 AM, a pattern consistent with automated fraud activity.
 
-### P6. Mule Accounts (Simplified)
+### 6. Mule Accounts (Simplified)
 * **Flagged 25 users** with 9–15 credit transactions, indicating accounts potentially used to receive and transfer illicit funds.
 
-### P7. Refund Abuse
+### 7. Refund Abuse
 * **Found 24 users** with refund ratios above 40%, suggesting suspicious refund or chargeback abuse.
 
-### P8. Merchant Collusion
+### 8. Merchant Collusion
 * **Detected 15 merchants** (IDs 1–15) where the top five users contributed approximately 99.7%–99.9% of the total transaction value, indicating extremely concentrated activity.
 
-### P9. Just-Under-Threshold Transactions
+### 9. Just-Under-Threshold Transactions
 * **Identified 20 users** making 10–25 transactions of exactly ₹9,999, consistent with transaction structuring to avoid regulatory thresholds.
 
-### P10. Dormant-Then-Active Accounts
+### 10. Dormant-Then-Active Accounts
 * **Detected 26 users** with an inactivity gap of 90+ days, followed by 15–28 transactions, indicating sudden account reactivation.
 
-### P11. Velocity Spike
+### 11. Velocity Spike
 * **Identified users** whose peak monthly transaction count was at least 5× their average monthly activity, indicating abrupt behavioral changes.
 
-### P12. Geographic Impossibility
+### 12. Geographic Impossibility
 * **Found 15 users** (IDs 14741–14755) making consecutive transactions from different cities within 60 minutes, a physically impossible travel pattern.
 
 ---
@@ -60,12 +60,5 @@
 * **Continuously refine fraud detection thresholds** using historical transaction data to minimize false positives.
 
 
-## Author
-**Jayshree Patidar**
 
-**LinkedIn:** https://www.linkedin.com/in/jayshreepatidar
-
-**GitHub:** https://github.com/jayshreepatidar?tab=repositories
-
-**Email:** jayshreepatidar22@gmail.com
 
